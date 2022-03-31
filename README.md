@@ -4,9 +4,9 @@
 
 ## 📌 Table Of Contents
 * [📖 Introduction](#-Introduction)
-* [🔎 How to Use ScomDriver & Development](#-howtouse)
+* [🔎 How to Use ScomDriver & Development](#-How to Use ScomDriver & Development)
 * [💡 License](#-License)
-* [📫 Contact](#-Contect)
+* [📫 Contact](#-Contact)
 
 # 📖 Introduction
 ##### 1.1.	ScomDriver 
@@ -34,12 +34,12 @@
 * .NET ScomDriver : ScomDriver library developed in .NET
 * Java ScomDriver: ScomDriver library developed in Java
 
-# 🔎 2. How to Use ScomDriver & Development
+# 🔎 How to Use ScomDriver & Development
 ```java
 
 ```
 
-# 💡 3. License
+# 💡 License
 * The information in this document is subject to change without notice and should not be construed as a commitment by AIM Systems, Inc. While all reasonable care has been taken to ensure accuracy, AIM Systems, Inc. assumes no responsibility for any errors that may appear in this document.
 
 * The software described in this document is furnished under a license and may be used or copied only in accordance with the terms of such license.
@@ -51,5 +51,5 @@
 * No part of this document may be reproduced in any form of by any means without permission in writing from AIM Systems, Inc.
 * ScomDriver is a trademark of AIM Systems, Inc.
 
-# 📫 4. Contact
+# 📫 Contact
 http://www.aim.co.kr/
