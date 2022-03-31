@@ -4,7 +4,6 @@
 
 ## 📌 Table Of Contents
 * [📖 Introduction](#-Introduction)
-* [🔎 How to Use](#-How to Use)
 * [💡 License](#-License)
 * [📫 Contact](#-Contact)
 
