@@ -5,8 +5,7 @@
 * [🔎 How to Use ScomDriver & Development](#-howtouse)
 * [💡 License](#-License)
 
-# 📖 Introduction
-### 1.	Intoduction
+### 📖 1. Introduction
 ##### 1.1.	ScomDriver 
 →	Abbreviation for Semiconductor Equipment Communication Driver
 →	FAB Automation Development Solution for Semiconductor, LCD, Equipment, etc…
@@ -32,12 +31,10 @@ Develop with reference from when creating EAP from subject of SECS / HSMS commun
 .NET ScomDriver : ScomDriver library developed in .NET
 Java ScomDriver: ScomDriver library developed in Java
 
-# 🔎 How to Use ScomDriver & Development
-### 2. How to Use ScomDriver & Development
+### 🔎 2. How to Use ScomDriver & Development
 
 
-# 💡 License
-### 3. License
+### 💡 3. License
 The information in this document is subject to change without notice and should not be construed as a commitment by AIM Systems, Inc. While all reasonable care has been taken to ensure accuracy, AIM Systems, Inc. assumes no responsibility for any errors that may appear in this document.
 
 The software described in this document is furnished under a license and may be used or copied only in accordance with the terms of such license.
