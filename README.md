@@ -1,9 +1,9 @@
 # scom
 
 ## 📌 Table Of Contents
-* [📖 Introduction](#-introduction)
+* [📖 Introduction](#-Introduction)
 * [🔎 How to Use ScomDriver & Development](#-howtouse)
-* [💡 Consideration](#-consideration)
+* [💡 License](#-License)
 
 # 📖 Introduction
 ### 1.	Intoduction
@@ -32,4 +32,18 @@ Develop with reference from when creating EAP from subject of SECS / HSMS commun
 .NET ScomDriver : ScomDriver library developed in .NET
 Java ScomDriver: ScomDriver library developed in Java
 
+# 🔎 How to Use ScomDriver & Development
 ### 2. How to Use ScomDriver & Development
+
+
+# 💡 License
+### 3. License
+The information in this document is subject to change without notice and should not be construed as a commitment by AIM Systems, Inc. While all reasonable care has been taken to ensure accuracy, AIM Systems, Inc. assumes no responsibility for any errors that may appear in this document.
+
+The software described in this document is furnished under a license and may be used or copied only in accordance with the terms of such license.
+
+### COPYRIGHT © 2010 AIM Systems, Inc.
+### All rights reserved.
+
+No part of this document may be reproduced in any form of by any means without permission in writing from AIM Systems, Inc.
+ScomDriver is a trademark of AIM Systems, Inc.
