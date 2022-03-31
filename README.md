@@ -8,7 +8,7 @@
 * [💡 License](#-License)
 * [📫 Contact](#-Contect)
 
-# 📖 1. Introduction
+# 📖 Introduction
 ##### 1.1.	ScomDriver 
 * Abbreviation for Semiconductor Equipment Communication Driver
 * FAB Automation Development Solution for Semiconductor, LCD, Equipment, etc…
