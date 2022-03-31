@@ -2,8 +2,7 @@
 
 ## 📌 Table Of Contents
 * [📖 Introduction](#-introduction)
-* [🙋 How to Use ScomDriver & Development](#-my-role)
-* [🔎 Detail](#-detail)
+* [🔎 How to Use ScomDriver & Development](#-howtouse)
 * [💡 Consideration](#-consideration)
 
 # 📖 Introduction
