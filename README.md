@@ -39,21 +39,17 @@
 #### ScomDevtool
 * Define and Modify SECS Message, and Create SECS Message Definition File (SMD File).
 
-<br>
 #### ScomEmulator
 * A program for SECS/HSMS Communication with Equipment or local program and message transaction test.
 
-<br>
 #### ScomDriver
 ###### Develop with reference from when creating EAP from subject of SECS / HSMS communication.
 * .NET ScomDriver : ScomDriver library developed in .NET
 * Java ScomDriver: ScomDriver library developed in Java
 
-<br>
 #### Example
 * Example provides a demo how to create an EAP by using ScomDriver to help developers.
 
-<br>
 
 # 📑 Development
 
