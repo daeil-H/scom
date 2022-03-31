@@ -4,6 +4,7 @@ ScomDevTool defines SECS Messages, and it also generates message definitions. In
 ScomDevTool is a SECSEdi tor to edit a SECS messages.
 
 3.2.	ScomDevTool Window
+
 ![image](https://user-images.githubusercontent.com/102704655/161019497-8c997c7c-ecc2-41cb-96ed-b9e24c80ba61.png)
 
 
