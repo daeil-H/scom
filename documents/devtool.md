@@ -1,28 +1,29 @@
 #	ScomDevTool
-3.1.	Overview
-ScomDevTool defines SECS Messages, and it also generates message definitions. In this section, describes how to use ScomDevTool to define structure of messages and generate SMD information.
-ScomDevTool is a SECSEdi tor to edit a SECS messages.
+###### Overview
+* ScomDevTool defines SECS Messages, and it also generates message definitions. In this section, describes how to use ScomDevTool to define structure of messages and generate SMD information.
+* ScomDevTool is a SECSEdi tor to edit a SECS messages.
 
-3.2.	ScomDevTool Window
+###### ScomDevTool Window
 
 ![image](https://user-images.githubusercontent.com/102704655/161019497-8c997c7c-ecc2-41cb-96ed-b9e24c80ba61.png)
 
 
-3.2.1.	ScomDevTool Menu Bar
-The ScomDevTool menu bar provides the following menus.
-	The Project menu provides you to manage project files. 
-	The Edit menu provides you to edit SECS message structure items. For details, see ‘3.4.4.2. Editing SECS Message Definitions’ section.
-	The View menu provides you to change the property of SECS Message Definition Pane and choose SECS Message Library. For details, see ‘3.3.3.Loading SECS Message Libraries’ section
-	The Build menu provides you to generate SECS Message Definitions File (SMD).
-	The Help menu provides the information of ScomDevTool.
+###### ScomDevTool Menu Bar
+* The ScomDevTool menu bar provides the following menus.
+* The Project menu provides you to manage project files. 
+* The Edit menu provides you to edit SECS message structure items. For details, see ‘3.4.4.2. Editing SECS Message Definitions’ section.
+* The View menu provides you to change the property of SECS Message Definition Pane and choose SECS Message Library. For details, see ‘3.3.3.Loading SECS Message Libraries’ section
+* The Build menu provides you to generate SECS Message Definitions File (SMD).
+* The Help menu provides the information of ScomDevTool.
 
 
-3.2.2.	ScomDevTool Toolbar
+###### ScomDevTool Toolbar
  ![image](https://user-images.githubusercontent.com/102704655/161019552-eb214193-ec2d-46f0-a2e1-b41f4f710d88.png)
-The ScomDevTool’s toolbar provides a row of icons for initiating common procedure, as follows:
+* The ScomDevTool’s toolbar provides a row of icons for initiating common procedure, as follows:
  ![image](https://user-images.githubusercontent.com/102704655/161019582-34338197-92d6-45d5-8476-f956bdbed936.png)
  New Project - Creating a new project. For details, see ‘3.2.3.Craeting a New Project’ section.
-  Open Project – Opening a project. For details, see ‘3.2.4.Opening a Project’ section.
+ ![image](https://user-images.githubusercontent.com/102704655/161020071-36a17036-421a-402e-bbc7-4dac472eedcf.png)
+* Open Project – Opening a project. For details, see ‘3.2.4.Opening a Project’ section.
   Save Project – Saving a project. For details, see ‘3.2.5.Saving a Project’ section.
   Cut – Cut message that is part of the selected SECS message
   Copy – Copy message that is part of the selected SECS message.
