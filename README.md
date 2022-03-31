@@ -32,8 +32,8 @@
 
 ##### ScomDriver
 * Develop with reference from when creating EAP from subject of SECS / HSMS communication.
-* .NET ScomDriver : ScomDriver library developed in .NET
-* Java ScomDriver: ScomDriver library developed in Java
+* <img src="https://img.shields.io/badge/-C%23-000000?logo=Csharp&style=flat">.NET ScomDriver : ScomDriver library developed in .NET
+* <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> ScomDriver: ScomDriver library developed in Java
 
 # 🔎 About
 #### ScomDevtool
