@@ -1,6 +1,6 @@
 # 📌 Contents
-* [🇯 Java](#-Java)
-* [🇳 .NET](#-.NET)
+* [🇯 Java](#Java)
+* [🇳 .NET](#.NET)
 
 # Java
 #### environment
