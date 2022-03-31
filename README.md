@@ -41,6 +41,8 @@
 
 ### COPYRIGHT © 2010 AIM Systems, Inc.
 ### All rights reserved.
+![image](https://user-images.githubusercontent.com/102704655/161007121-8da3684a-c5bc-4bc6-8247-6ea363a340eb.png)
+
 
 * No part of this document may be reproduced in any form of by any means without permission in writing from AIM Systems, Inc.
 * ScomDriver is a trademark of AIM Systems, Inc.
