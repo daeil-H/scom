@@ -4,6 +4,7 @@
 
 ## 📌 Table Of Contents
 * [📖 Introduction](#-Introduction)
+* [🔎 HowToUse](#-HowToUse)
 * [💡 License](#-License)
 * [📫 Contact](#-Contact)
 
@@ -33,7 +34,7 @@
 * .NET ScomDriver : ScomDriver library developed in .NET
 * Java ScomDriver: ScomDriver library developed in Java
 
-# 🔎 How to Use ScomDriver & Development
+# 🔎 HowtoUse
 ### Java
 #### environment
 * JDK: 1.6.0_45
