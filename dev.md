@@ -1,6 +1,6 @@
 # 📌 Contents
 * [🇯 Java](#Java)
-* [🇳 .NET](#.NET)
+* [🇳 .NET](#NET)
 
 # Java
 #### environment
@@ -91,4 +91,4 @@ public class SECSWrapper implements SECSListener{
 
 ```
 
-# .NET
+# NET
