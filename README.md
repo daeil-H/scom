@@ -4,7 +4,8 @@
 
 ## 📌 Table Of Contents
 * [📖 Introduction](#-Introduction)
-* [🔎 HowToUse](#-HowToUse)
+* [🔎 About](#-About)
+* [📑 Development](#-Development)
 * [💡 License](#-License)
 * [📫 Contact](#-Contact)
 
@@ -34,7 +35,27 @@
 * .NET ScomDriver : ScomDriver library developed in .NET
 * Java ScomDriver: ScomDriver library developed in Java
 
-# 🔎 HowtoUse
+# 🔎 About
+#### ScomDevtool
+* Define and Modify SECS Message, and Create SECS Message Definition File (SMD File).
+
+<br>
+#### ScomEmulator
+* A program for SECS/HSMS Communication with Equipment or local program and message transaction test.
+
+<br>
+#### ScomDriver
+###### Develop with reference from when creating EAP from subject of SECS / HSMS communication.
+* .NET ScomDriver : ScomDriver library developed in .NET
+* Java ScomDriver: ScomDriver library developed in Java
+
+<br>
+#### Example
+* Example provides a demo how to create an EAP by using ScomDriver to help developers.
+
+<br>
+
+# 📑 Development
 
 # 💡 License
 * The information in this document is subject to change without notice and should not be construed as a commitment by AIM Systems, Inc. While all reasonable care has been taken to ensure accuracy, AIM Systems, Inc. assumes no responsibility for any errors that may appear in this document.
