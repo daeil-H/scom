@@ -1,10 +1,10 @@
 # 💻 Scom Sample on linux server
 
-### Environment
+### - Environment
 * ubuntu 20.04
 * Java(TM) SE Runtime Environment (build 1.6.0_45-b06)
 
-### Structure
+### - Structure
 * Linux_run_env/
   * lib/
     * commons-logging-1.0.4.jar
@@ -23,7 +23,7 @@
     * DEFAULT.SMD
   * startup.sh
   
-#### startup.sh
+#### - startup.sh
 ```sh
 #!/bin/bash
 
@@ -36,5 +36,5 @@ fi
 
 ```
 
-### must do it
+### - must do it
 You need to copy the 'libJRockey4ND.so' file to the /usr/local/lib/ path
