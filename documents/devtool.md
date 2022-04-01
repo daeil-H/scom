@@ -11,7 +11,7 @@
 ## ScomDevTool Menu Bar
 * The ScomDevTool menu bar provides the following menus.
 * The Project menu provides you to manage project files. 
-* The Edit menu provides you to edit SECS message structure items. For details, see [‘Editing SECS Message Definitions’](#-edting-secs-message-definitions) section.
+* The Edit menu provides you to edit SECS message structure items. For details, see [‘Editing SECS Message Definitions’](#edit-secs-msg-def) section.
 * The View menu provides you to change the property of SECS Message Definition Pane and choose SECS Message Library. For details, see ['Loading SECS Message Libraries’](#-Loading) section
 * The Build menu provides you to generate SECS Message Definitions File (SMD).
 * The Help menu provides the information of ScomDevTool.
@@ -138,7 +138,7 @@ In this section, describes how to use SECSEditor to define SECS Messages.
 * AIM GEM Standard Library, which contains the SECS-II messages currently included in the GEM standard.
 * AIM SECS Message Definition File, which contains messages defined using ScomDevTool’s SECSEditor (SMD)
 
-#### Editing SECS Message Definitions
+#edit-secs-msg-def #### Editing SECS Message Definitions
 ###### Defined SECS Message Format
  
  ![image](https://user-images.githubusercontent.com/102704655/161172758-6ce15a3f-fe08-4341-a705-689e46f8a4f5.png)
