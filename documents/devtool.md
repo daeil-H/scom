@@ -138,7 +138,7 @@ In this section, describes how to use SECSEditor to define SECS Messages.
 * AIM GEM Standard Library, which contains the SECS-II messages currently included in the GEM standard.
 * AIM SECS Message Definition File, which contains messages defined using ScomDevTool’s SECSEditor (SMD)
 
-#edit-secs-msg-def 
+#edit secs msg def 
 #### Editing SECS Message Definitions
 ###### Defined SECS Message Format
  
