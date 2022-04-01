@@ -1,205 +1,232 @@
-4.2.	ScomEmulator 4.0
-4.2.1.	Role
--	‘Virtual Equipment or Host’
--	Edit and Save Message.
--	Communication Test.
--	Message Send and Scenario Simulation Test.
--	Switch log message.
+# ScomEmulator 4.0
+### Role
+* ‘Virtual Equipment or Host’
+* Edit and Save Message.
+* Communication Test.
+* Message Send and Scenario Simulation Test.
+* Switch log message.
  
-4.2.2.	UI Description
+### UI Description
  
-	Menu
-Where list main function of ScomEmulator program. Press buttons to use specific functions.
-	Message Explorer
-Show message by opening Message File and control it.
-	Scenario Simulation
-Register and control test message and send in an order of message listed.
-	SECS1 Log
-Where output SECS1 invoked log while communicating.
-	SECS2 Log
-Where output SECS2 invoked log while communicating.
-	Simulation Log
+ ![image](https://user-images.githubusercontent.com/102704655/161176395-c59b106b-4652-43cf-ae35-778e53296129.png)
+
+ 
+* Menu  
+Where list main function of ScomEmulator program. Press buttons to use specific functions.  
+* Message Explorer  
+Show message by opening Message File and control it.  
+* Scenario Simulation  
+Register and control test message and send in an order of message listed.  
+* SECS1 Log  
+Where output SECS1 invoked log while communicating.  
+* SECS2 Log  
+Where output SECS2 invoked log while communicating.  
+* Simulation Log  
 Where output Simulation invoked log while communicating.
 
-4.2.3.	Message Management
-Message File and Message are used while communicating with Driver in ScomEmulator. Users can edit, save and test message.
+#### Message Management
+###### Message File and Message are used while communicating with Driver in ScomEmulator. Users can edit, save and test message.
 
-4.2.3.1.	Message File
-Used in Driver of ScomEmulator.
+#### Message File
+###### Used in Driver of ScomEmulator.
  
 
-1. Open
-Load opening Message (SMD, TSM) file in Message Explorer. If same name of Scenario file is existing, select whether to open with it.
-	Select [Menu] – [Home] – [Message File] – [Open].
-	Select message file – press [Open].
-	If Scenario file exists, select whether to open Scenario file.
-	Load and output Message File and Scenario File.
-         
+##### 1. Open
+###### Load opening Message (SMD, TSM) file in Message Explorer. If same name of Scenario file is existing, select whether to open with it.
+* Select [Menu] – [Home] – [Message File] – [Open].
+* Select message file – press [Open].
+* If Scenario file exists, select whether to open Scenario file.
+* Load and output Message File and Scenario File.
+        
+![image](https://user-images.githubusercontent.com/102704655/161176536-927254e7-2cb9-44f0-ab41-272b1124b4cf.png)
 
-2. Save
-Save Message File which is edit from Simulator as TSM file.
-	Select [Menu] – [Home] – [Message File] – [Save].
-	Save
+##### 2. Save
+###### Save Message File which is edit from Simulator as TSM file.
+* Select [Menu] – [Home] – [Message File] – [Save].
+* Save
 
-3. Save As
-Save Message File edit from Simulator as with different name.
-	Select [Menu] – [Home] – [Message File] – [Save As].
-	Save as.
-4.2.3.2.	Edit Message
-Edit Message File (SMD, TSM) in ScomEmulator.
+##### 3. Save As
+###### Save Message File edit from Simulator as with different name.
+* Select [Menu] – [Home] – [Message File] – [Save As].
+* Save as.
 
-1. SetMessage Info
-Edit Message Information. Apply updated message information while Driver communication.
-	Select message in [Message Explorer] and edit Message information in [Menu] – [Edit] – [Message Information].
+#### Edit Message
+###### Edit Message File (SMD, TSM) in ScomEmulator.
+
+##### 1. SetMessage Info
+###### Edit Message Information. Apply updated message information while Driver communication.
+* Select message in [Message Explorer] and edit Message information in [Menu] – [Edit] – [Message Information].
+ 
+ ![image](https://user-images.githubusercontent.com/102704655/161176687-532d9be6-1581-405d-8d02-6776d0efc347.png)
+
+
+* Select Message in [Message Explorer] and click menu tool button in [Message Information] – [Message Editor] Dialog is opened and then edit Message information.  Apply Message information without any confirmation. If necessary, with Dialog opened, select Message or Item information in [Message Explorer] for edit.
+ 
+ ![image](https://user-images.githubusercontent.com/102704655/161176703-de2def11-b36d-45f5-8968-1d6c099bc2b5.png)
+
+
+##### 2. Set Item Info
+###### Set Item Information. Apply updated message information while Driver communication.
+* Select Item in [Message Explorer] and modify Item information in [Menu] – [Edit] – [Item Information].
+ 
+ ![image](https://user-images.githubusercontent.com/102704655/161176725-d8ca67de-8114-4b67-b675-ad86a3d709ac.png)
+
+
+* Select Item in [Message Explorer] and select menu tool button of [Item Information] – Open [Item Editor] to edit Item Information. Apply Item information with any confirmation. If necessary, with Dialog opened, select Message or Item information in [Message Explorer] for edit.
  
 
-	Select Message in [Message Explorer] and click menu tool button in [Message Information] – [Message Editor] Dialog is opened and then edit Message information.  Apply Message information without any confirmation. If necessary, with Dialog opened, select Message or Item information in [Message Explorer] for edit.
- 
-
-2. Set Item Info
-Set Item Information. Apply updated message information while Driver communication.
-	Select Item in [Message Explorer] and modify Item information in [Menu] – [Edit] – [Item Information].
- 
-
-	Select Item in [Message Explorer] and select menu tool button of [Item Information] – Open [Item Editor] to edit Item Information. Apply Item information with any confirmation. If necessary, with Dialog opened, select Message or Item information in [Message Explorer] for edit.
- 
-
-3. New Message
-Create new Message.
-	Select [Menu] – [Edit] – [Transaction] – [New Message].
-	Or right mouse click at [Message Explorer] – Select [New Message].
-	Fill in message information and press OK.
-	Add message.
+##### 3. New Message
+###### Create new Message.
+* Select [Menu] – [Edit] – [Transaction] – [New Message].
+* Or right mouse click at [Message Explorer] – Select [New Message].
+* Fill in message information and press OK.
+* Add message.
 
 
-4. New Item
-Create new Item.
-	Select [Menu] – [Edit] – [Transaction] – [New Item].
-	Or select message to add on item at [Message Explorer] – right mouse click – Select [New Item].
-	Fill in Item information and press OK.
-	Item is added..
+##### 4. New Item
+###### Create new Item.
+* Select [Menu] – [Edit] – [Transaction] – [New Item].
+* Or select message to add on item at [Message Explorer] – right mouse click – Select [New Item].
+* Fill in Item information and press OK.
+* Item is added..
 
-4.2.4.	Scenario
+### Scenario
 To make it easier to test message transaction, register message and support scenario function which makes it possible to send message in defined order.
 
-4.2.4.1.	Scenario File
+#### Scenario File
+
+ ![image](https://user-images.githubusercontent.com/102704655/161176857-aab395b8-e787-44d5-a095-669479bf5222.png)
+
+##### 1. New
+###### Open new Scenario page to create as a Scenario File. Until to save, scenario file does not exist yet.
+* Select [Menu] – [Home] – [Scenario File] – [New].
+* New scenario opened.
+
+##### 2. Open
+###### Open predefined Scenario File (.TSS).
+* Select [Menu] – [Home] – [Scenario File] – [Open].
+* Select Tss file.
+* Open scenario selected from Scenario Simulation.
+
+##### 3. Save
+###### Save currently selected scenario as Scenario File (. TSS).
+* Select [Menu] – [Home] – [Scenario File] – [Save].
+* Save Scenario File as in directed path.
+
+##### 4. Save As
+###### Save currently selected scenario as with different name.
+* Select [Menu] – [Home] – [Scenario File] – [Save As].
+* Select path to save files and save scenario file as selected file name.
+
+##### 4.2.4.2. Edit Scenario
+###### Register loaded message at Message Explorer to scenario and edit the scenario.
+
+##### 1. Add Message
+###### Add message to Send / Receive on scenario.
+* Select message to be added on scenario at [Message Explorer].
+* Drag this message onto [Scenario Simulation]. (Drag-Drop method)
  
-1. New
-Open new Scenario page to create as a Scenario File. Until to save, scenario file does not exist yet.
-	Select [Menu] – [Home] – [Scenario File] – [New].
-	New scenario opened.
+ ![image](https://user-images.githubusercontent.com/102704655/161177042-171f8d8e-5b79-465c-9075-840fe12a35ce.png)
 
-2. Open
-Open predefined Scenario File (.TSS).
-•	Select [Menu] – [Home] – [Scenario File] – [Open].
-•	Select Tss file.
-•	Open scenario selected from Scenario Simulation.
 
-3. Save
-Save currently selected scenario as Scenario File (. TSS).
-•	Select [Menu] – [Home] – [Scenario File] – [Save].
-•	Save Scenario File as in directed path.
+##### 2. Change Message Mode
+###### Only case for Send Message. Switch to Send Message mode.
+* Change message mode by double-clicking Send message registered at [Scenario Simulation].
 
-4. Save As
-Save currently selected scenario as with different name.
-•	Select [Menu] – [Home] – [Scenario File] – [Save As].
-•	Select path to save files and save scenario file as selected file name.
+![image](https://user-images.githubusercontent.com/102704655/161177133-b8f0b9c2-2278-4f3a-9cc0-519e5ba6b1be.png)  
+- Auto: Send message automatically. Use as Default.  
+- Manual: Stop when follows on proper order. Send message directly by pressing [Send].  
 
-4.2.4.2.	Edit Scenario
-Register loaded message at Message Explorer to scenario and edit the scenario.
+##### 3. New Optional
+###### Several messages are registered waiting for their order. Send those of selected message from message box.
+* [Menu from Scenario Simulation] – Click [New Optional] and then Dialog pops up. From left control to right control, register ###### message. After (Add or double-click) and press OK. Register one Optional message in Scenario.
 
-1. Add Message
-Add message to Send / Receive on scenario.
-•	Select message to be added on scenario at [Message Explorer].
-•	Drag this message onto [Scenario Simulation]. (Drag-Drop method)
+![image](https://user-images.githubusercontent.com/102704655/161177185-3aaa583b-f18e-47a7-a6ab-8fee39dbdcdd.png)
+
+
+* While Simulation, message selection box pops up when Optional message fits in the proper order defined to send. Click message to send.
  
+ ![image](https://user-images.githubusercontent.com/102704655/161177194-d2b54bd9-784b-42ab-9323-8b245fe15532.png)
 
-2. Change Message Mode
-Only case for Send Message. Switch to Send Message mode.
-•	Change message mode by double-clicking Send message registered at [Scenario Simulation].
- 
--	Auto: Send message automatically. Use as Default.
--	Manual: Stop when follows on proper order. Send message directly by pressing [Send].
 
-3. New Optional
-Several messages are registered waiting for their order. Send those of selected message from message box.
-•	[Menu from Scenario Simulation] – Click [New Optional] and then Dialog pops up. From left control to right control, register message. After (Add or double-click) and press OK. Register one Optional message in Scenario.
+##### 4. Modify Optional Transaction
+###### Modify message registered in Optional message.
+* Select Optional message node – right mouse click – Select [Modify Optional Transaction] and modify message registration of Option message at Dialog. Press [OK] to complete.
  
+ ![image](https://user-images.githubusercontent.com/102704655/161177264-dce8be68-3aa6-4a1f-afdf-a9cd0a79c206.png)
 
-•	While Simulation, message selection box pops up when Optional message fits in the proper order defined to send. Click message to send.
- 
 
-4. Modify Optional Transaction
-Modify message registered in Optional message.
-•	Select Optional message node – right mouse click – Select [Modify Optional Transaction] and modify message registration of Option message at Dialog. Press [OK] to complete.
+##### 5. Delete Message
+###### Delete Message registered at scenario.
+* Select Optional message node and right mouse click – Select [Delete].  
+ ![image](https://user-images.githubusercontent.com/102704655/161177271-8b49a240-5382-4925-9b61-386aaadd37ac.png)
  
+* Selected message is deleted.
 
-5. Delete Message
-Delete Message registered at scenario.
-•	Select Optional message node and right mouse click – Select [Delete].
- 
-•	Selected message is deleted.
+##### 6. Change Scenario Mode
+###### Change Message mode. While real communication, run simulation with configured mode of Simulator.
+* Select Host / Equipment Radio button and then scenario is changed to that mode.  
+![image](https://user-images.githubusercontent.com/102704655/161177298-a20c48a4-0417-41bf-81a1-0e026071db7f.png)
 
-6. Change Scenario Mode
-Change Message mode. While real communication, run simulation with configured mode of Simulator.
-•	Select Host / Equipment Radio button and then scenario is changed to that mode.
- 
--	Host: Mode when Simulator is Host.
--	Equipment: Mode when Simulator is Equipment. 
-4.2.5.	Scenario Simulation Test
-Start to Test after message file is completed.
+- Host: Mode when Simulator is Host.  
+- Equipment: Mode when Simulator is Equipment.  
 
-4.2.5.1.	Connection
-Communicate with opponent’s Driver.
- 
-1. Configure
-Configure ScomDriver information at ScomEmulator.
-•	Select [Menu] – [Home] – [Connection] – [Configure].
-•	Configure default Driver information for communicating at ScomEmulator in ScomDriver Tab.
--	Driver Name: Insert ScomDriver name for Simulator.
--	Device ID: As a specific Equipment number, able to communicate if Device ID is same as opponent’s.
--	Identity: Select whether ScomDriver to be registered is Equipment or Host.
--	SECS Mode: Select whether communication mode is HSMS or SECS1.
--	HSMS Mode:  Configure when SECS mode is HSMS.
-HSMS Mode: Select HSMS Mode. Select between Active or Passive mode.
-Remote IP: HSMS If Mode is Active, fill in opponent’s IP Address. Format is [0~255].[0~255].[0~255].[0~255].
-Local IP: While Test, check when using Local IP(127.0.0.1).
-Remote Port: HSMS Mode is Active, insert opponent’s Port number.
-Local Port: HSMS Mode is Passive, configure own Port number.
--	SECS1 Mode: Configure when SECS mode is SECS1.
-SECS1 Mode: Select SECS1 mode. Select Slave and Master.
+#### 4.2.5.	Scenario Simulation Test
+###### Start to Test after message file is completed.
+
+#### 4.2.5.1.	Connection
+###### Communicate with opponent’s Driver.  
+![image](https://user-images.githubusercontent.com/102704655/161177361-ffb9f1aa-c6ee-4da6-88e9-0c2d529bf5e7.png)
+
+
+##### 1. Configure
+###### Configure ScomDriver information at ScomEmulator.
+* Select [Menu] – [Home] – [Connection] – [Configure].
+* Configure default Driver information for communicating at ScomEmulator in ScomDriver Tab.  
+- **Driver Name**: Insert ScomDriver name for Simulator.  
+- **Device ID**: As a specific Equipment number, able to communicate if Device ID is same as opponent’s.  
+- **Identity**: Select whether ScomDriver to be registered is Equipment or Host.  
+- **SECS Mode**: Select whether communication mode is HSMS or SECS1.  
+- **HSMS Mode**:  Configure when SECS mode is HSMS.  
+HSMS Mode: Select HSMS Mode. Select between Active or Passive mode.  
+Remote IP: HSMS If Mode is Active, fill in opponent’s IP Address. Format is [0~255].[0~255].[0~255].[0~255].  
+Local IP: While Test, check when using Local IP(127.0.0.1).  
+Remote Port: HSMS Mode is Active, insert opponent’s Port number.  
+Local Port: HSMS Mode is Passive, configure own Port number.  
+-	SECS1 Mode: Configure when SECS mode is SECS1.  
+**SECS1 Mode**: Select SECS1 mode. Select Slave and Master.  
 Interleave: 
-Com Port: Select Com Port for communication.
-Retry Count: If not to receive ‘EOT’ or receive ‘NAK’, choose retry count.
-Baud Rate: Choose Baud rate
--	Log Directory: ScomDriver leaves log while communicating. Select log directory path to store log
--	Log Mode: Configure information when SECS mode is SECS1.
-No Logging: Neither of SECS1 or SECS2 log output.
-Full SECS: Driver, SECS1, SECS2 log output.
-SECS1 Only: SECS1 log output only.
-SECS2 Only: SECS2 log output only.
--	Log Level: Choose log level which output from Driver.
-More than Debug level: Debug log or higher.
-More than Info level: Debug, Info log or higher.
-More than Warn level: Debug, Info, Warn log or higher.
--	Backup Duration: Choose backup log duration
-Daily: Daily log unit.
-Hourly: Hourly log unit.
+Com Port: Select Com Port for communication.  
+Retry Count: If not to receive ‘EOT’ or receive ‘NAK’, choose retry count.  
+Baud Rate: Choose Baud rate  
+- **Log Directory**: ScomDriver leaves log while communicating. Select log directory path to store log  
+- **Log Mode**: Configure information when SECS mode is SECS1.  
+No Logging: Neither of SECS1 or SECS2 log output.  
+Full SECS: Driver, SECS1, SECS2 log output.  
+SECS1 Only: SECS1 log output only.  
+SECS2 Only: SECS2 log output only.  
+- **Log Level**: Choose log level which output from Driver.  
+More than Debug level: Debug log or higher.  
+More than Info level: Debug, Info log or higher.  
+More than Warn level: Debug, Info, Warn log or higher.  
+- **Backup Duration**: Choose backup log duration  
+Daily: Daily log unit.  
+Hourly: Hourly log unit.  
 
-•	Configure Driver Option information for communication with ScomEmulator on Option Tab.
--	Row Binary:
-Use Raw Binary: Whether to use Raw Binary Length.
-Raw Binary Length: Whether to use Raw Binary Length.
--	Socket Max Length: Configure max length of socket data.
--	Report Log: 
-Transaction: Check whether to leave Report Log related to Transaction.
-Connection: Check whether to leave Report Log related to Connection.
-Timeout: Check whetehr to leave Report Log related to Timeout.
--	Dispatch: Choose to use Dispatch functions which check whether incoming message is same as defined message by Driver. 
--	Timeout: Configure Timeout.
-HSMS Timeout : T3, T5, T6, T7, T8
-SECS1 Timeout : T1, T2, T3, T4
--	LinkTest Duration: configure LinkTest Duration.
+* Configure Driver Option information for communication with ScomEmulator on Option Tab.
+- **Row Binary**:  
+Use Raw Binary: Whether to use Raw Binary Length.  
+Raw Binary Length: Whether to use Raw Binary Length.  
+- **Socket Max Length**: Configure max length of socket data.  
+- **Report Log**:   
+Transaction: Check whether to leave Report Log related to Transaction.  
+Connection: Check whether to leave Report Log related to Connection.  
+Timeout: Check whetehr to leave Report Log related to Timeout.  
+- **Dispatch**: Choose to use Dispatch functions which check whether incoming message is same as defined message by Driver. 
+- **Timeout**: Configure Timeout.  
+HSMS Timeout : T3, T5, T6, T7, T8  
+SECS1 Timeout : T1, T2, T3, T4  
+- **LinkTest Duration**: configure LinkTest Duration.
 
 
 2. Connect
