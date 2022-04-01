@@ -160,11 +160,9 @@ In this section, describes how to use SECSEditor to define SECS Messages.
 
 #### Editing SECS Message Definitions
 ###### 1)	Importing SECS Messages
-① You can import message definitions into your current project by selecting what you want from the currently loaded message definitions library and add them to the list displayed in the SECS Message Definition Pane. Also you can define your own messages and import them using the SECS Message Editing Pane.
-
+① You can import message definitions into your current project by selecting what you want from the currently loaded message definitions library and add them to the list displayed in the SECS Message Definition Pane. Also you can define your own messages and import them using the SECS Message Editing Pane.  
 ②	To import definitions using the SECS Message Library Pane
-Click the desired definition in the SECS Message Library pane, drag the selected definition over to the SECS Message Definition pane, and drop them there.
-
+Click the desired definition in the SECS Message Library pane, drag the selected definition over to the SECS Message Definition pane, and drop them there.  
 ③	To add definitions using the SECS Message Editing pane
 Enter the desired definition in the SECS Message Editing pane, and click ‘Add’ button. SECSEditor add the message definition to the end of displayed definitions list in the SECS Message Definitions Pane. (For details, see ‘3.3.2.1.SECS Message Editing pane’ section.)
 
