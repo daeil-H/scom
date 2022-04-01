@@ -1,14 +1,14 @@
 #	ScomDevTool
-#### Overview
+## Overview
 * ScomDevTool defines SECS Messages, and it also generates message definitions. In this section, describes how to use ScomDevTool to define structure of messages and generate SMD information.
 * ScomDevTool is a SECSEdi tor to edit a SECS messages.
 
-#### ScomDevTool Window
+## ScomDevTool Window
 
 ![image](https://user-images.githubusercontent.com/102704655/161019497-8c997c7c-ecc2-41cb-96ed-b9e24c80ba61.png)
 
 
-#### ScomDevTool Menu Bar
+## ScomDevTool Menu Bar
 * The ScomDevTool menu bar provides the following menus.
 * The Project menu provides you to manage project files. 
 * The Edit menu provides you to edit SECS message structure items. For details, see ‘3.4.4.2. Editing SECS Message Definitions’ section.
@@ -17,7 +17,7 @@
 * The Help menu provides the information of ScomDevTool.
 
 
-#### ScomDevTool Toolbar
+## ScomDevTool Toolbar
  ![image](https://user-images.githubusercontent.com/102704655/161019552-eb214193-ec2d-46f0-a2e1-b41f4f710d88.png)
 * The ScomDevTool’s toolbar provides a row of icons for initiating common procedure, as follows:
 * ![image](https://user-images.githubusercontent.com/102704655/161019582-34338197-92d6-45d5-8476-f956bdbed936.png)
@@ -37,8 +37,8 @@
 * ![image](https://user-images.githubusercontent.com/102704655/161171404-c3a43038-2576-43e1-8466-3db2328aa464.png)
   Build SECS Message Definitions – Generating SECS Message Definitions file (SMD).
 
-#### Creating a New Project
-###### Choose Project ->New
+## Creating a New Project
+#### Choose Project ->New
 * If you have a project currently open, a following dialog asks if you want to save the current project.
 
 ![image](https://user-images.githubusercontent.com/102704655/161171473-352f8c2e-39fe-47c7-b022-6f7fea6eebd4.png)
@@ -48,44 +48,44 @@
 * If you click ‘No’, ScomDevTool does not save the current project.
 * If you click ‘Cancel’, ScomDevTool cancel the ‘New Project’ command and return to current project.
 
-#### Assign new Project Name
+## Assign new Project Name
  
  ![image](https://user-images.githubusercontent.com/102704655/161171799-888829db-6328-460d-9876-060df5357d8b.png)
 
 
 * If a ‘New Project’ dialog opens, enter project name in the ‘Project Name’ textbox and select project type and project path.
 
-###### Create new Project Environment
+#### Create new Project Environment
 * If you click ‘OK,, ScomDevTool create a new project environment. (For details, see ‘3.3.6.Project Environment’ section.)
 
-#### Opening a Project 
-###### Choose Project ->Open
+## Opening a Project 
+#### Choose Project ->Open
 * If you have a project currently open, a dialog asks if you want to save the current project. (For details, see ‘3.3.2.Creating New Project’ section.)
 
-###### Select Project
+#### Select Project
 * If you select a ScomDevTool’s project file from an ‘Open Project’ dialog, ScomDevTool reads an assigned project file and prepares an environment for a project.
  
  ![image](https://user-images.githubusercontent.com/102704655/161171847-0e2286e7-4596-4906-a061-29c98814fed0.png)
 
 
-#### Saving a Project
-###### To save the current project under the same name: Choose Project ->Save
+## Saving a Project
+#### To save the current project under the same name: Choose Project ->Save
 * ScomDevTool saves the project under the current project name.
 
-###### To save the current project under a new name: Choose Project ->SaveAs
+#### To save the current project under a new name: Choose Project ->SaveAs
 * A ‘SaveAs Project’ dialog opens, type a new project name in the ‘Project Name’ box and choose OK button. 
 * ScomDevTool saves the project under a new name.
  
  ![image](https://user-images.githubusercontent.com/102704655/161171902-604944cc-b967-4a5b-9355-22024dbc5529.png)
 
 
-#### Project Environment
+## Project Environment
 * You can store ScomDevTool project files in any directory. In each project directory, however, ScomDevTool creates the followings.
 
-###### Project Directory
+#### Project Directory
 * ScomDevTool creates project directory with project name, and saves project file (‘ProjectName.sdt’) in current location.
 
-###### ‘ScomInfo’ Directory
+#### ‘ScomInfo’ Directory
 * It contains SECS Message Definitions (‘ProjectName.smd’) file.
 
 ## ScomDevTool SECS Message Editor
@@ -98,7 +98,7 @@ In this section, describes how to use SECSEditor to define SECS Messages.
 ![image](https://user-images.githubusercontent.com/102704655/161172442-bdef4822-3269-4330-984b-a03f2491c3b7.png)
 
  
-###### SECS Message Editing Pane
+#### SECS Message Editing Pane
 
 ![image](https://user-images.githubusercontent.com/102704655/161172448-d1244ffe-159c-43bd-be4f-1b7b8b7bf6ef.png)
 
@@ -108,7 +108,7 @@ In this section, describes how to use SECSEditor to define SECS Messages.
 ![image](https://user-images.githubusercontent.com/102704655/161172476-c71a6452-8b52-49ee-b853-8c7b3dd0d4a1.png)
 
 
-###### SECS DataItem Editing Pane
+#### SECS DataItem Editing Pane
 
 ![image](https://user-images.githubusercontent.com/102704655/161172494-da3fa554-eef3-4a04-882d-1d86a880f35a.png)
 
@@ -117,13 +117,13 @@ In this section, describes how to use SECSEditor to define SECS Messages.
 
 ![image](https://user-images.githubusercontent.com/102704655/161172559-da7cac9a-13e7-4e0d-82fc-af18467eb1fb.png)
 
-###### SECS Message Library Pane
+#### SECS Message Library Pane
  
  ![image](https://user-images.githubusercontent.com/102704655/161172597-8d9b2538-8154-4878-8c0f-47c83e8d99ab.png)
 
 * The ‘SECS Message Library Pane’ displays the contents of message definitions of current selected library and provides several ways to choose and import individual message definitions into the current project.
 
-###### SECS Message Definition Pane
+#### SECS Message Definition Pane
 
 ![image](https://user-images.githubusercontent.com/102704655/161172602-f99560b2-e4b6-44eb-afbe-9e8f5f2a2aaf.png)
 
@@ -143,35 +143,35 @@ In this section, describes how to use SECSEditor to define SECS Messages.
  
  ![image](https://user-images.githubusercontent.com/102704655/161172758-6ce15a3f-fe08-4341-a705-689e46f8a4f5.png)
 
-* Message Header
- The message header consists of a description of the message’s name and function, followed by a single line providing information in the following format:
-MessageName: Sn Fm Wait-Flag AutoReply-Flag Direction
-MessageName: Message name. (ASCII format)
-Sn Fm: Stream and Function numbers of the message.
-Wait-Flag: The letter ‘W’ indicates that the message interpreter must wait for a secondary message after sending this primary message.
-AutoReply-Flag: If SECS message includes the string ‘<R>’, ScomDriver replies the secondary message automatically when the primary message is received. 
-Direction: Message transmission direction. This field can have three types.
-‘H  E’	Host to equipment
-‘H  E’	Equipment to host
-‘H E’	Both direction
+##### Message Header
+* The message header consists of a description of the message’s name and function, followed by a single line providing information in the following format:
+###### MessageName: Sn Fm Wait-Flag AutoReply-Flag Direction
+###### MessageName: Message name. (ASCII format)
+###### Sn Fm: Stream and Function numbers of the message.
+###### Wait-Flag: The letter ‘W’ indicates that the message interpreter must wait for a secondary message after sending this primary message.
+###### AutoReply-Flag: If SECS message includes the string ‘<R>’, ScomDriver replies the secondary message automatically when the primary message is received. 
+###### Direction: Message transmission direction. This field can have three types.
+* ‘H → E’	Host to equipment
+* ‘H ← E’	Equipment to host
+* ‘H ←→ E’	Both direction
 
-	Message Body
-SECSEditor displays the body of message definition using the SECS-II tree structure format used in the Book of SEMI Standard 1996, Equipment Software, Volumn1.
+##### Message Body
+* SECSEditor displays the body of message definition using the SECS-II tree structure format used in the Book of SEMI Standard 1996, Equipment Software, Volumn1.
 
-3.3.4.2.	Editing SECS Message Definitions
-1)	Importing SECS Messages
-You can import message definitions into your current project by selecting what you want from the currently loaded message definitions library and add them to the list displayed in the SECS Message Definition Pane. Also you can define your own messages and import them using the SECS Message Editing Pane.
+#### Editing SECS Message Definitions
+###### 1)	Importing SECS Messages
+① You can import message definitions into your current project by selecting what you want from the currently loaded message definitions library and add them to the list displayed in the SECS Message Definition Pane. Also you can define your own messages and import them using the SECS Message Editing Pane.
 
-③	To import definitions using the SECS Message Library Pane
+②	To import definitions using the SECS Message Library Pane
 Click the desired definition in the SECS Message Library pane, drag the selected definition over to the SECS Message Definition pane, and drop them there.
 
-④	To add definitions using the SECS Message Editing pane
+③	To add definitions using the SECS Message Editing pane
 Enter the desired definition in the SECS Message Editing pane, and click ‘Add’ button. SECSEditor add the message definition to the end of displayed definitions list in the SECS Message Definitions Pane. (For details, see ‘3.3.2.1.SECS Message Editing pane’ section.)
 
-2)	Editing Message Header
-⑤	Select the desired definition in SECS Message Definition pane, and click on the definition’s header.
-⑥	In the SECS Message Editing Pane, edit properties of definition. (For details, see ‘3.4.1.3.SECS Message Editing pane’ section)
-⑦	Click ‘Change’ button. SECSEditor updates the message definition in the SECS Message Definition pane.
+####	Editing Message Header
+① Select the desired definition in SECS Message Definition pane, and click on the definition’s header.
+②	In the SECS Message Editing Pane, edit properties of definition. (For details, see ‘3.4.1.3.SECS Message Editing pane’ section)
+③	Click ‘Change’ button. SECSEditor updates the message definition in the SECS Message Definition pane.
 
 3)	Editing Message Body
 	To add a new message body.
