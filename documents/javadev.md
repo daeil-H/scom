@@ -1,6 +1,18 @@
 # How to Development EAP for JAVA Developer
 <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
 
+### [Example – JAVA Code](./sample.md)
+
+### 📌 Index
+* [Make SECS Instance](#make-secs-instance)
+* [Invoke & Link SECS Event](#invoke-&-link-secs-event)
+* [Initialize ScomDriver](#initialize-scomdriver)
+* [Terminate ScomDriver](#terminate-scomdriver)
+* [Send Request Message](#send-request-message)
+* [Send Reply Message](#send-reply-message)
+* [Reload SMD File](#reload-smd-file)
+* [Reload Configuration](#reload-configuration)
+
 ### Make reference to ScomDriver Library  
 ###### Add libraries in project for further ScomDriver communication.  
 Add ScomDriver1.0.jar and libraries from [Property] of project or [Configure Build Path] of Libraries Tab.  
