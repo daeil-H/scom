@@ -2,6 +2,16 @@
 
 ### [Example – C# Code](./sample.md)
 
+### 📌 Index
+* [Make SECS Instance](#make-secs-instance)
+* [Invoke & Link SECS Event](#invoke-&-link-secs-event)
+* [Initialize ScomDriver](#initialize-scomdriver)
+* [Terminate ScomDriver](#terminate-scomdriver)
+* [Send Request Message](#send-request-message)
+* [Send Reply Message](#send-reply-message)
+* [Reload SMD File](#reload-smd-file)
+* [Reload Configuration](#reload-configuration)
+
 ### Start to Develop EAP  
 Explain both cases of .NET project and Java project. For the following explanation of development of each project, .Net project is based on Microsoft Visual Studio and java project is based on Eclipse SDK.
 
