@@ -118,7 +118,7 @@ To make it easier to test message transaction, register message and support scen
 * Select [Menu] – [Home] – [Scenario File] – [Save As].
 * Select path to save files and save scenario file as selected file name.
 
-##### 4.2.4.2. Edit Scenario
+##### Edit Scenario
 ###### Register loaded message at Message Explorer to scenario and edit the scenario.
 
 ##### 1. Add Message
@@ -171,10 +171,10 @@ To make it easier to test message transaction, register message and support scen
 - Host: Mode when Simulator is Host.  
 - Equipment: Mode when Simulator is Equipment.  
 
-#### 4.2.5.	Scenario Simulation Test
+#### Scenario Simulation Test
 ###### Start to Test after message file is completed.
 
-#### 4.2.5.1.	Connection
+#### Connection
 ###### Communicate with opponent’s Driver.  
 ![image](https://user-images.githubusercontent.com/102704655/161177361-ffb9f1aa-c6ee-4da6-88e9-0c2d529bf5e7.png)
 
@@ -229,120 +229,131 @@ SECS1 Timeout : T1, T2, T3, T4
 - **LinkTest Duration**: configure LinkTest Duration.
 
 
-2. Connect
-Request Connection or get ready for communicating with the status for Listening.
-•	Select [Menu] – [Home] – [Connection] – [Connect].
-•	Show connection state at StatusBar.
+##### 2. Connect
+###### Request Connection or get ready for communicating with the status for Listening.
+* Select [Menu] – [Home] – [Connection] – [Connect].
+* Show connection state at StatusBar.
+ ![image](https://user-images.githubusercontent.com/102704655/161178173-8c05d031-9be0-450c-8318-094ff7ac587e.png)
+
+
+- Connecting: Request to connect.  
+![image](https://user-images.githubusercontent.com/102704655/161178189-22400abc-3459-4058-b67a-a8e43ce32965.png)
+
+- Listening: Wait in for connection.  
+ ![image](https://user-images.githubusercontent.com/102704655/161178221-c5c2a4f6-ee90-435c-b00d-0a7c87db4f6d.png)
+
+- Connected: Connected successfully.  
+ ![image](https://user-images.githubusercontent.com/102704655/161178234-91d20c67-1e6e-48a3-8281-d050e241585c.png)
+
+- Disconnected: Disconnected from opponent.  
+
+##### 3. Disconnect
+###### Disconnect communication and close socket. Connection ended.
+* Select [Menu] – [Home] – [Connection] – [Disconnect].
+* Show connection state at StatusBar.	
+![image](https://user-images.githubusercontent.com/102704655/161178259-f42b5ce9-40ba-4752-b3a9-b194ea09601e.png)
+
+- Closed: Connection ended and socket close.
+
+### Send Message
+###### Send Message which registered at Message Explorer. Depending on direction of defined message and Function, Send/Receive, Request/Reply is applied differently.
  
-
--	Connecting: Request to connect.
+##### 1. Send Request Message
+##### Send Request (Primary) Message to opponent. If Function number is odd and direction is opposite with Simulator’s, send Message.
+* Select Primary Message Node and Select [Menu] – [Home] – [Send Message] – [Request].
+* Or selecting Primary Message, right mouse click – Select [Send Request Message].  
+![image](https://user-images.githubusercontent.com/102704655/161178334-4dd3617f-a142-444a-a187-5d4e41398a32.png)
  
+* Send message. Look up for history Log.
 
--	Listening: Wait in for connection.
+##### 2. Send Reply Message
+###### Send Reply(Secondary) Message to opponent. If Function is even and direction is opposite with Simulator’s, send message.
+* Select Secondary Message Node and select [Menu] – [Home] – [Send Message] – [Reply].
+* Or selecting Secondary Message, right mouse click – Select [Send Reply Message].  
+ ![image](https://user-images.githubusercontent.com/102704655/161178386-0050580e-45bd-4a1d-8ef3-6403b2020d1f.png)
  
+* Send message. Look up for history Log.
 
--	Connected: Connected successfully.
+##### 3. Send Control Message
+###### Send Control Message.
+* Select [Menu] – [Home] – [Send Message] – [Control].
+* Configure Control message information.
+* Send Control message.
+
+##### 4. Stress Test
+###### Selecting message send interval, continuously send message.
+* [Menu] – [Home] – [Stress Test] – Choose Interval value and [Menu] – [Home] – [Stress Test] – press [Start].
+![image](https://user-images.githubusercontent.com/102704655/161178528-c95c7a63-21c8-4e95-ace6-65ab29962b86.png)
+
+* Selecting message of [Message Explorer], Run (a)Send Request or (b)Send Reply, and then send message following configured interval.
+ ![image](https://user-images.githubusercontent.com/102704655/161178531-9d98cec9-6485-4cc6-b215-1c55fdc08401.png)
  
+* [Menu] – [Home] – [Stress Test] – [Stop], stop Stress Test. 
 
--	Disconnected: Disconnected from opponent.
 
-3. Disconnect
-Disconnect communication and close socket. Connection ended.
-•	Select [Menu] – [Home] – [Connection] – [Disconnect].
-•	Show connection state at StatusBar.	
-	 
+### Scenario Simulation
+###### If connected, currently selected Scenario tests for Simulation.
+ ![image](https://user-images.githubusercontent.com/102704655/161178590-0545a7a7-c9ea-46d9-b576-33ad304c51ec.png)
 
--	Closed: Connection ended and socket close.
+##### 1. Simulation On
+###### Start Testing by currently selected Scenario. After done for testing, it turns into Simulation Off. 
+* Turns Simulator as Connected.
+* Select [Menu] – [Home] – [Simulation] – [On].
+* Ask for using current Scenario at message view. By clicking OK, Simulation starts.
+ ![image](https://user-images.githubusercontent.com/102704655/161178608-0bb4c6c3-773e-41b2-8050-3bbc61e92c2a.png)  
+* After Scenario Simulation, turn it into OFF.
 
-4.2.5.2.	Send Message
-Send Message which registered at Message Explorer. Depending on direction of defined message and Function, Send/Receive, Request/Reply is applied differently.
- 
-1. Send Request Message
-Send Request (Primary) Message to opponent. If Function number is odd and direction is opposite with Simulator’s, send Message.
-•	Select Primary Message Node and Select [Menu] – [Home] – [Send Message] – [Request].
-•	Or selecting Primary Message, right mouse click – Select [Send Request Message].
+##### 2. Simulation Off
+###### Stop current Simulating.
+* Select [Menu] – [Home] – [Simulation] – [Off].
 
- 
-•	Send message. Look up for history Log.
+##### 3. Send Scenario Message
+###### If Send Message Mode is Manual, send proper message in order by clicking Send button during Simulation.
+* If Message Mode is Manual and stops, send message by pressing [Send].  
+![image](https://user-images.githubusercontent.com/102704655/161178694-750a4ac6-cd8a-4192-8182-8c95704cbb93.png)
 
-2. Send Reply Message
-Send Reply(Secondary) Message to opponent. If Function is even and direction is opposite with Simulator’s, send message.
-•	Select Secondary Message Node and select [Menu] – [Home] – [Send Message] – [Reply].
-•	Or selecting Secondary Message, right mouse click – Select [Send Reply Message].
- 
-•	Send message. Look up for history Log.
 
-3. Send Control Message
-Send Control Message.
-•	Select [Menu] – [Home] – [Send Message] – [Control].
-•	Configure Control message information.
-•	Send Control message.
-4. Stress Test
-Selecting message send interval, continuously send message.
-•	[Menu] – [Home] – [Stress Test] – Choose Interval value and [Menu] – [Home] – [Stress Test] – press [Start].
- 
-•	Selecting message of [Message Explorer], Run (a)Send Request or (b)Send Reply, and then send message following configured interval.
- 
-•	[Menu] – [Home] – [Stress Test] – [Stop], stop Stress Test. 
-
-4.2.5.3.	Scenario Simulation
-If connected, currently selected Scenario tests for Simulation.
- 
-
-1. Simulation On
-Start Testing by currently selected Scenario. After done for testing, it turns into Simulation Off. 
-•	Turns Simulator as Connected.
-•	Select [Menu] – [Home] – [Simulation] – [On].
-•	Ask for using current Scenario at message view. By clicking OK, Simulation starts.
- 
-•	After Scenario Simulation, turn it into OFF.
-
-2. Simulation Off
-Stop current Simulating.
-•	Select [Menu] – [Home] – [Simulation] – [Off].
-
-3. Send Scenario Message
-If Send Message Mode is Manual, send proper message in order by clicking Send button during Simulation.
-•	If Message Mode is Manual and stops, send message by pressing [Send].
+## Other Fuction
+### View Panels
+###### Open panel view.
+ ![image](https://user-images.githubusercontent.com/102704655/161178754-096cb32d-588f-412c-a14d-ea51f392ec76.png)
 
  
-
-4.2.6.	Other Fuction
-4.2.6.1.	View Panels
-Open panel view.
- 
-	Scenario Simulation
+* Scenario Simulation  
 Output Scenario Simulation Panel.
-	SECS1 Log
-Output SECS1 Log Panel.
+* SECS1 Log  
+Output SECS1 Log Panel.  
 (That show SECS1 log, while Driver communication of Simulator)
-	SECS2 Log
-Output SECS2 Log Panel.
+* SECS2 Log  
+Output SECS2 Log Panel.  
 (That show SECS2 log, while Driver communication of Simulator.)
-	Simulation Log
-Output Simulation Log Panel.
+* Simulation Log  
+Output Simulation Log Panel.  
 (That show Simulation log, while Driver communication of Simulator.)
-	Clear
+* Clear  
 Clear current SECS1 / SECS2 / Simulation Log output.
 
-4.2.6.2.	Convert Log
-Convert Log with different versions. Comfortable for reuse.
- 
-•	Select [Menu] – [Home] – [Log] – [Convert].
-•	Configure information and convert log.
-              
-•	Select Option for converting log at Select Conversion Option.
--	Scom Log Type: Select whether converting log is SECS1 log or SECS2.
-•	Select [Open Log File] and then select log file to be converted. Output log at text box of [Log File].
-•	Select [Convert] and then output at V1.0 Message as SECS2 log type by converting log.
-•	Select [Save As] and then confirm save with indicating saving path and file name.
-•	Select [Save And Open] and then
-•	Select [Append] and then
-4.2.6.3.	Clip Board
-You can Copy,Paste, Duplicate, Delete.
-•	Select [Menu] – [Edit] – [Clip Board] – [Function] .
-•	When You select the Component, right mouse click – Select [Function]. 
+### Convert Log
+###### Convert Log with different versions. Comfortable for reuse.
+ ![image](https://user-images.githubusercontent.com/102704655/161178854-81855068-77dd-43f1-8cd1-1f04dedb4be7.png)
 
-4.2.6.4.	Skin
-You can select the skin color.
-•	Select [Menu] – [View] – [skin] – [Color] .
+* Select [Menu] – [Home] – [Log] – [Convert].
+* Configure information and convert log.
+![image](https://user-images.githubusercontent.com/102704655/161178893-ccbd764a-06fe-49ae-9829-2f044b1f9e7f.png)
+
+* Select Option for converting log at Select Conversion Option.  
+- Scom Log Type: Select whether converting log is SECS1 log or SECS2.
+* Select [Open Log File] and then select log file to be converted. Output log at text box of [Log File].
+* Select [Convert] and then output at V1.0 Message as SECS2 log type by converting log.
+* Select [Save As] and then confirm save with indicating saving path and file name.
+* Select [Save And Open] and then
+* Select [Append] and then
+
+### Clip Board
+###### You can Copy,Paste, Duplicate, Delete.
+* Select [Menu] – [Edit] – [Clip Board] – [Function] .
+* When You select the Component, right mouse click – Select [Function]. 
+
+### Skin
+###### You can select the skin color.
+* Select [Menu] – [View] – [skin] – [Color] .
