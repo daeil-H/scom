@@ -338,7 +338,7 @@ Clear current SECS1 / SECS2 / Simulation Log output.
  ![image](https://user-images.githubusercontent.com/102704655/161178854-81855068-77dd-43f1-8cd1-1f04dedb4be7.png)
 
 * Select [Menu] – [Home] – [Log] – [Convert].
-* Configure information and convert log.
+* Configure information and convert log.  
 ![image](https://user-images.githubusercontent.com/102704655/161178893-ccbd764a-06fe-49ae-9829-2f044b1f9e7f.png)
 
 * Select Option for converting log at Select Conversion Option.  
