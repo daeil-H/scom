@@ -25,7 +25,7 @@
 * ![image](https://user-images.githubusercontent.com/102704655/161020071-36a17036-421a-402e-bbc7-4dac472eedcf.png)
  Open Project – Opening a project. For details, see [‘Opening a Project’](#opening-a-project) section.
 * ![image](https://user-images.githubusercontent.com/102704655/161171047-4ec8407a-ef37-469c-98a6-8538e2f8f984.png)
-  Save Project – Saving a project. For details, see [‘Saving a Project’](saving-a-project) section.
+  Save Project – Saving a project. For details, see [‘Saving a Project’](#saving-a-project) section.
 * ![image](https://user-images.githubusercontent.com/102704655/161171091-e9acd1c1-4661-4bdd-9d96-d1f798206db6.png)
   Cut – Cut message that is part of the selected SECS message
 * ![image](https://user-images.githubusercontent.com/102704655/161171126-e538da2f-754b-45dc-9fbb-3205ca009b08.png)
