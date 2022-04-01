@@ -56,9 +56,8 @@ Example provides a demo how to create an EAP by using ScomDriver to help develop
 
 
 # 💡 License
-* The information in this document is subject to change without notice and should not be construed as a commitment by AIM Systems, Inc. While all reasonable care has been taken to ensure accuracy, AIM Systems, Inc. assumes no responsibility for any errors that may appear in this document.
-
-* The software described in this document is furnished under a license and may be used or copied only in accordance with the terms of such license.
+###### The information in this document is subject to change without notice and should not be construed as a commitment by AIM Systems, Inc. While all reasonable care has been taken to ensure accuracy, AIM Systems, Inc. assumes no responsibility for any errors that may appear in this document.
+###### The software described in this document is furnished under a license and may be used or copied only in accordance with the terms of such license.
 
 ### COPYRIGHT © 2010 AIM Systems, Inc.
 ### All rights reserved.
