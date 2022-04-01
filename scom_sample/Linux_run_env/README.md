@@ -5,7 +5,7 @@
 * Java(TM) SE Runtime Environment (build 1.6.0_45-b06)
 
 ### Structure
-* vanilla_java
+* Linux_run_env/
   * lib/
     * commons-logging-1.0.4.jar
     * dynamic-file-appender-1.0.0.jar
