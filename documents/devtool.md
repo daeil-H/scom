@@ -60,7 +60,7 @@
 
 ## Opening a Project 
 #### Choose Project ->Open
-* If you have a project currently open, a dialog asks if you want to save the current project. (For details, see ['Creating New Project’](#createing-new-project) section.)
+* If you have a project currently open, a dialog asks if you want to save the current project. (For details, see ['Creating New Project’](#creating-new-project) section.)
 
 #### Select Project
 * If you select a ScomDevTool’s project file from an ‘Open Project’ dialog, ScomDevTool reads an assigned project file and prepares an environment for a project.
