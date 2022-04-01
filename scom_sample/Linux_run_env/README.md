@@ -35,3 +35,6 @@ else
 fi
 
 ```
+
+### must do it
+You need to copy the 'libJRockey4ND.so' file to the /usr/local/lib/ path
