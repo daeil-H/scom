@@ -11,7 +11,7 @@
 ## ScomDevTool Menu Bar
 * The ScomDevTool menu bar provides the following menus.
 * The Project menu provides you to manage project files. 
-* The Edit menu provides you to edit SECS message structure items. For details, see [‘Editing SECS Message Definitions’](#-SECSMSGDEF) section.
+* The Edit menu provides you to edit SECS message structure items. For details, see [‘Editing SECS Message Definitions’](#-secs) section.
 * The View menu provides you to change the property of SECS Message Definition Pane and choose SECS Message Library. For details, see ['Loading SECS Message Libraries’](#-Loading) section
 * The Build menu provides you to generate SECS Message Definitions File (SMD).
 * The Help menu provides the information of ScomDevTool.
