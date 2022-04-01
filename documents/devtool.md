@@ -24,11 +24,17 @@
  New Project - Creating a new project. For details, see ‘3.2.3.Craeting a New Project’ section.
 * ![image](https://user-images.githubusercontent.com/102704655/161020071-36a17036-421a-402e-bbc7-4dac472eedcf.png)
  Open Project – Opening a project. For details, see ‘3.2.4.Opening a Project’ section.
+* ![image](https://user-images.githubusercontent.com/102704655/161171047-4ec8407a-ef37-469c-98a6-8538e2f8f984.png)
   Save Project – Saving a project. For details, see ‘3.2.5.Saving a Project’ section.
+* ![image](https://user-images.githubusercontent.com/102704655/161171091-e9acd1c1-4661-4bdd-9d96-d1f798206db6.png)
   Cut – Cut message that is part of the selected SECS message
+* ![image](https://user-images.githubusercontent.com/102704655/161171126-e538da2f-754b-45dc-9fbb-3205ca009b08.png)
   Copy – Copy message that is part of the selected SECS message.
+* ![image](https://user-images.githubusercontent.com/102704655/161171199-42136c3e-0e8d-48f8-a3d3-f04e95c998c5.png)
   Paste Next – Paste the copied message below the selected SECS message. 
+* ![image](https://user-images.githubusercontent.com/102704655/161171395-66a5441d-0c7f-4c54-8bc3-8ac686dce4a3.png)
   Find – Enter values to search for items
+* ![image](https://user-images.githubusercontent.com/102704655/161171404-c3a43038-2576-43e1-8466-3db2328aa464.png)
   Build SECS Message Definitions – Generating SECS Message Definitions file (SMD).
 
 3.2.3.	Creating a New Project
