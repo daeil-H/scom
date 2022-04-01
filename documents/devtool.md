@@ -1,23 +1,23 @@
 #	ScomDevTool
-###### Overview
+#### Overview
 * ScomDevTool defines SECS Messages, and it also generates message definitions. In this section, describes how to use ScomDevTool to define structure of messages and generate SMD information.
 * ScomDevTool is a SECSEdi tor to edit a SECS messages.
 
-###### ScomDevTool Window
+#### ScomDevTool Window
 
 ![image](https://user-images.githubusercontent.com/102704655/161019497-8c997c7c-ecc2-41cb-96ed-b9e24c80ba61.png)
 
 
-###### ScomDevTool Menu Bar
+#### ScomDevTool Menu Bar
 * The ScomDevTool menu bar provides the following menus.
 * The Project menu provides you to manage project files. 
 * The Edit menu provides you to edit SECS message structure items. For details, see ‘3.4.4.2. Editing SECS Message Definitions’ section.
-* The View menu provides you to change the property of SECS Message Definition Pane and choose SECS Message Library. For details, see ‘3.3.3.Loading SECS Message Libraries’ section
+* The View menu provides you to change the property of SECS Message Definition Pane and choose SECS Message Library. For details, see ['Loading SECS Message Libraries’](#-Loading) section
 * The Build menu provides you to generate SECS Message Definitions File (SMD).
 * The Help menu provides the information of ScomDevTool.
 
 
-###### ScomDevTool Toolbar
+#### ScomDevTool Toolbar
  ![image](https://user-images.githubusercontent.com/102704655/161019552-eb214193-ec2d-46f0-a2e1-b41f4f710d88.png)
 * The ScomDevTool’s toolbar provides a row of icons for initiating common procedure, as follows:
 * ![image](https://user-images.githubusercontent.com/102704655/161019582-34338197-92d6-45d5-8476-f956bdbed936.png)
@@ -37,48 +37,56 @@
 * ![image](https://user-images.githubusercontent.com/102704655/161171404-c3a43038-2576-43e1-8466-3db2328aa464.png)
   Build SECS Message Definitions – Generating SECS Message Definitions file (SMD).
 
-3.2.3.	Creating a New Project
-3.2.3.1.	Choose Project ->New
-If you have a project currently open, a following dialog asks if you want to save the current project.
+#### Creating a New Project
+###### Choose Project ->New
+* If you have a project currently open, a following dialog asks if you want to save the current project.
+
+![image](https://user-images.githubusercontent.com/102704655/161171473-352f8c2e-39fe-47c7-b022-6f7fea6eebd4.png)
+
+
+* If you click ‘Yes’, ScomDevTool save the current project before creating a new project
+* If you click ‘No’, ScomDevTool does not save the current project.
+* If you click ‘Cancel’, ScomDevTool cancel the ‘New Project’ command and return to current project.
+
+#### Assign new Project Name
  
+ ![image](https://user-images.githubusercontent.com/102704655/161171799-888829db-6328-460d-9876-060df5357d8b.png)
 
-	If you click ‘Yes’, ScomDevTool save the current project before creating a new project
-	If you click ‘No’, ScomDevTool does not save the current project.
-	If you click ‘Cancel’, ScomDevTool cancel the ‘New Project’ command and return to current project.
 
-3.2.3.2.	Assign new Project Name
+* If a ‘New Project’ dialog opens, enter project name in the ‘Project Name’ textbox and select project type and project path.
+
+###### Create new Project Environment
+* If you click ‘OK,, ScomDevTool create a new project environment. (For details, see ‘3.3.6.Project Environment’ section.)
+
+#### Opening a Project 
+###### Choose Project ->Open
+* If you have a project currently open, a dialog asks if you want to save the current project. (For details, see ‘3.3.2.Creating New Project’ section.)
+
+###### Select Project
+* If you select a ScomDevTool’s project file from an ‘Open Project’ dialog, ScomDevTool reads an assigned project file and prepares an environment for a project.
  
+ ![image](https://user-images.githubusercontent.com/102704655/161171847-0e2286e7-4596-4906-a061-29c98814fed0.png)
 
-If a ‘New Project’ dialog opens, enter project name in the ‘Project Name’ textbox and select project type and project path.
 
-3.2.3.3.	Create new Project Environment
-If you click ‘OK,, ScomDevTool create a new project environment. (For details, see ‘3.3.6.Project Environment’ section.)
+#### Saving a Project
+###### To save the current project under the same name: Choose Project ->Save
+* ScomDevTool saves the project under the current project name.
 
-3.2.4.	Opening a Project 
-3.2.4.1.	Choose Project ->Open
-If you have a project currently open, a dialog asks if you want to save the current project. (For details, see ‘3.3.2.Creating New Project’ section.)
-
-3.2.4.2.	Select Project
-If you select a ScomDevTool’s project file from an ‘Open Project’ dialog, ScomDevTool reads an assigned project file and prepares an environment for a project.
+###### To save the current project under a new name: Choose Project ->SaveAs
+* A ‘SaveAs Project’ dialog opens, type a new project name in the ‘Project Name’ box and choose OK button. 
+* ScomDevTool saves the project under a new name.
  
+ ![image](https://user-images.githubusercontent.com/102704655/161171902-604944cc-b967-4a5b-9355-22024dbc5529.png)
 
-3.2.5.	Saving a Project
-3.2.5.1.	To save the current project under the same name: Choose Project ->Save
-ScomDevTool saves the project under the current project name.
 
-3.2.5.2.	To save the current project under a new name: Choose Project ->SaveAs
-A ‘SaveAs Project’ dialog opens, type a new project name in the ‘Project Name’ box and choose OK button. 
-ScomDevTool saves the project under a new name.
- 
+#### Project Environment
+* You can store ScomDevTool project files in any directory. In each project directory, however, ScomDevTool creates the followings.
 
-3.2.6.	Project Environment
-You can store ScomDevTool project files in any directory. In each project directory, however, ScomDevTool creates the followings.
+###### Project Directory
+* ScomDevTool creates project directory with project name, and saves project file (‘ProjectName.sdt’) in current location.
 
-3.2.6.1.	Project Directory
-ScomDevTool creates project directory with project name, and saves project file (‘ProjectName.sdt’) in current location.
-
-3.2.6.2.	‘ScomInfo’ Directory
-It contains SECS Message Definitions (‘ProjectName.smd’) file.
+###### ‘ScomInfo’ Directory
+* It contains SECS Message Definitions (‘ProjectName.smd’) file.
 
 3.3.	ScomDevTool SECS Message Editor
 3.3.1.	Overview
