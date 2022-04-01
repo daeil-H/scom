@@ -139,7 +139,6 @@ namespace codeGenerator
 			Error:" +  returnObject.ErrorObject.getErrorDiscription());
 			return null;
 		}
-		}
 		//Method5: Edit S1F9 Message defined in SMD file.
 		public SECSTransaction makeS1F9()
 		{
@@ -149,6 +148,7 @@ namespace codeGenerator
 			trx.Function = 9;
 
 			return trx;
+		}
 	}
 …
 }
