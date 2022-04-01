@@ -4,7 +4,7 @@
 
 # 📌 Index
 * [📖 Introduction](#-Introduction)
-* [🔎 About](#-About)
+* [🔎 About Scom Components](#-about-scom-components)
 * [📑 Development](#-Development)
 * [💡 License](#-License)
 * [📫 Contact](#-Contact)
@@ -36,7 +36,7 @@
 * <img src="https://img.shields.io/badge/-C%23-000000?logo=Csharp&style=flat"> ScomDriver : ScomDriver library developed in .NET
 * <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> ScomDriver: ScomDriver library developed in Java
 
-# 🔎 About
+# 🔎 About Scom Components
 #### [ScomDevtool](./documents/devtool.md)  
 Define and Modify SECS Message, and Create SECS Message Definition File (SMD File).
 
