@@ -12,7 +12,7 @@
 * The ScomDevTool menu bar provides the following menus.
 * The Project menu provides you to manage project files. 
 * The Edit menu provides you to edit SECS message structure items. For details, see [‘Editing SECS Message Definitions’](#editing-secs-message-definitions) section.
-* The View menu provides you to change the property of SECS Message Definition Pane and choose SECS Message Library. For details, see ['Loading SECS Message Libraries’](#-Loading) section
+* The View menu provides you to change the property of SECS Message Definition Pane and choose SECS Message Library. For details, see ['Loading SECS Message Libraries’](#loading-secs-message-libraries) section
 * The Build menu provides you to generate SECS Message Definitions File (SMD).
 * The Help menu provides the information of ScomDevTool.
 
@@ -21,11 +21,11 @@
  ![image](https://user-images.githubusercontent.com/102704655/161019552-eb214193-ec2d-46f0-a2e1-b41f4f710d88.png)
 * The ScomDevTool’s toolbar provides a row of icons for initiating common procedure, as follows:
 * ![image](https://user-images.githubusercontent.com/102704655/161019582-34338197-92d6-45d5-8476-f956bdbed936.png)
- New Project - Creating a new project. For details, see ‘3.2.3.Craeting a New Project’ section.
+ New Project - Creating a new project. For details, see ['Craeting a New Project’](#creating-a-new-project) section.
 * ![image](https://user-images.githubusercontent.com/102704655/161020071-36a17036-421a-402e-bbc7-4dac472eedcf.png)
- Open Project – Opening a project. For details, see ‘3.2.4.Opening a Project’ section.
+ Open Project – Opening a project. For details, see [‘Opening a Project’](#opening-a-project) section.
 * ![image](https://user-images.githubusercontent.com/102704655/161171047-4ec8407a-ef37-469c-98a6-8538e2f8f984.png)
-  Save Project – Saving a project. For details, see ‘3.2.5.Saving a Project’ section.
+  Save Project – Saving a project. For details, see [‘Saving a Project’](saving-a-project) section.
 * ![image](https://user-images.githubusercontent.com/102704655/161171091-e9acd1c1-4661-4bdd-9d96-d1f798206db6.png)
   Cut – Cut message that is part of the selected SECS message
 * ![image](https://user-images.githubusercontent.com/102704655/161171126-e538da2f-754b-45dc-9fbb-3205ca009b08.png)
@@ -56,11 +56,11 @@
 * If a ‘New Project’ dialog opens, enter project name in the ‘Project Name’ textbox and select project type and project path.
 
 #### Create new Project Environment
-* If you click ‘OK,, ScomDevTool create a new project environment. (For details, see ‘3.3.6.Project Environment’ section.)
+* If you click ‘OK,, ScomDevTool create a new project environment. (For details, see [‘Project Environment’](#project-environment) section.)
 
 ## Opening a Project 
 #### Choose Project ->Open
-* If you have a project currently open, a dialog asks if you want to save the current project. (For details, see ‘3.3.2.Creating New Project’ section.)
+* If you have a project currently open, a dialog asks if you want to save the current project. (For details, see ['Creating New Project’](#createing-new-project) section.)
 
 #### Select Project
 * If you select a ScomDevTool’s project file from an ‘Open Project’ dialog, ScomDevTool reads an assigned project file and prepares an environment for a project.
@@ -158,8 +158,8 @@ In this section, describes how to use SECSEditor to define SECS Messages.
 ##### Message Body
 * SECSEditor displays the body of message definition using the SECS-II tree structure format used in the Book of SEMI Standard 1996, Equipment Software, Volumn1.
 
-#### Editing SECS Message Definitions
-###### 1)	Importing SECS Messages
+## Editing SECS Message Definitions
+#### 1)	Importing SECS Messages
 ① You can import message definitions into your current project by selecting what you want from the currently loaded message definitions library and add them to the list displayed in the SECS Message Definition Pane. Also you can define your own messages and import them using the SECS Message Editing Pane.
  
 ②	To import definitions using the SECS Message Library Pane
