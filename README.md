@@ -57,6 +57,7 @@ Example provides a demo how to create an EAP by using ScomDriver to help develop
 ###### for [🇳  .NET Developer](./documents/dotnetdev.md)
 ###### for [🇯  JAVA Developer](./documents/javadev.md)
 
+###### [running on linux](./documents/linux.md)
 
 # 💡 License
 ###### The information in this document is subject to change without notice and should not be construed as a commitment by AIM Systems, Inc. While all reasonable care has been taken to ensure accuracy, AIM Systems, Inc. assumes no responsibility for any errors that may appear in this document.
