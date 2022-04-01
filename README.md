@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/102704655/161009188-40bca8ea-5039-4174-9bff-25e8a5c5c993.png)
 
 
-## 📌 Table Of Contents
+# 📌 Index
 * [📖 Introduction](#-Introduction)
 * [🔎 About](#-About)
 * [📑 Development](#-Development)
@@ -36,7 +36,7 @@
 * <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> ScomDriver: ScomDriver library developed in Java
 
 # 🔎 About
-#### ScomDevtool
+#### [ScomDevtool](./documents/devtool.md)
 * Define and Modify SECS Message, and Create SECS Message Definition File (SMD File).
 
 #### ScomEmulator
