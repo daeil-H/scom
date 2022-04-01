@@ -160,36 +160,46 @@ In this section, describes how to use SECSEditor to define SECS Messages.
 
 #### Editing SECS Message Definitions
 ###### 1)	Importing SECS Messages
-① You can import message definitions into your current project by selecting what you want from the currently loaded message definitions library and add them to the list displayed in the SECS Message Definition Pane. Also you can define your own messages and import them using the SECS Message Editing Pane.  
+① You can import message definitions into your current project by selecting what you want from the currently loaded message definitions library and add them to the list displayed in the SECS Message Definition Pane. Also you can define your own messages and import them using the SECS Message Editing Pane.
+ 
 ②	To import definitions using the SECS Message Library Pane
-Click the desired definition in the SECS Message Library pane, drag the selected definition over to the SECS Message Definition pane, and drop them there.  
+Click the desired definition in the SECS Message Library pane, drag the selected definition over to the SECS Message Definition pane, and drop them there.
+ 
 ③	To add definitions using the SECS Message Editing pane
 Enter the desired definition in the SECS Message Editing pane, and click ‘Add’ button. SECSEditor add the message definition to the end of displayed definitions list in the SECS Message Definitions Pane. (For details, see ‘3.3.2.1.SECS Message Editing pane’ section.)
 
-####	Editing Message Header
+####	2) Editing Message Header
 ① Select the desired definition in SECS Message Definition pane, and click on the definition’s header.
+ 
 ②	In the SECS Message Editing Pane, edit properties of definition. (For details, see ‘3.4.1.3.SECS Message Editing pane’ section)
+ 
 ③	Click ‘Change’ button. SECSEditor updates the message definition in the SECS Message Definition pane.
 
-3)	Editing Message Body
-	To add a new message body.
+#### 3)	Editing Message Body
+*	To add a new message body.
+ 
 ①	If you want to add the new item definition to the end of defined items in the message body, click the right button on the header of the desired message definition in the SECS Message Definition pane, then select ‘Insert Item’ or ‘Add Child Item’ menu on the popup. (If you select a not-list typed item, SECSEditor disables ‘Add Child Item’ menu)
+ 
 ②	If you want to insert the new item definition in the list of defined items in the message body, click the right button on a specified item of the desired message definition in the SECS Message Definition pane, then select ‘Insert Item’ or ‘Add Child Item’ menu on the popup.
+ 
 ③	If you select ‘Insert Item’ menu, a new SECS DataItem will be added as sibling. If you select ‘Add Child Item’ menu, a new SECS DataItem will be added as a child.
+ 
 ④	After adding a new SECS DataItem, you should edit it in the SECS DataItem Editing Pane.
 
-	To edit a message body.
+*	To edit a message body.
 ①	Select the desired definition in SECS Message Definition pane, and click the desired item in the message definition body.
+ 
 ②	SECSEditor displays the current settings for the item in the SECS DataItem Editing Pane.
+ 
 ③	Edit properties of item in the SECS DataItem Editing pane and SECSEditor updates the message definition in the SECS Message Definition pane directly.
 
-3.4.	Building Definitions
-3.4.1.	Overview
-This section describes how to build definitions on the basis of the SECS.
-You use these outputs (SMD) to implement Equipment Interface Program.
+##	Building Definitions
+####	Overview
+###### This section describes how to build definitions on the basis of the SECS.
+###### You use these outputs (SMD) to implement Equipment Interface Program.
 
-3.4.2.	SECS Message Definitions
-ScomDriver uses a file called SMD (SECS Message Definitions) to check the validity of SECS Messages exchanged with the equipment.
+####	SECS Message Definitions
+###### ScomDriver uses a file called SMD (SECS Message Definitions) to check the validity of SECS Messages exchanged with the equipment.
 
-To generate this SMD File, choose ‘Build->SECS Message Definition’ menu.
-Then ScomDevTool will generate the XML formatted SECS Message Definitions file and store it in the current project directory.
+###### To generate this SMD File, choose ‘Build->SECS Message Definition’ menu.
+###### Then ScomDevTool will generate the XML formatted SECS Message Definitions file and store it in the current project directory.
