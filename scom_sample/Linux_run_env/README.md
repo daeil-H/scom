@@ -23,6 +23,7 @@
     * DEFAULT.SMD
   * startup.sh
   
+#### startup.sh
 ```sh
 #!/bin/bash
 
