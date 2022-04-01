@@ -54,15 +54,8 @@ Example provides a demo how to create an EAP by using ScomDriver to help develop
 
 # 📑 Development
 ### Start to Develop EAP  
-Explain both cases of .NET project and Java project. For the following explanation of development of each project, .Net project is based on Microsoft Visual Studio and java project is based on Eclipse SDK.
-
-##### 1 .Net  
-Add ScomDriver 1.0.dll by selecting [Add Reference…] in Solution Explorer.
- ![image](https://user-images.githubusercontent.com/102704655/161180918-79aacd98-dca3-47b9-ba18-e7d2e60c8e1f.png)
-
-##### 2. Java  
-Add ScomDriver1.0.jar from [Property] of project or [Configure Build Path] of Libraries Tab. 
- ![image](https://user-images.githubusercontent.com/102704655/161180923-10ff367a-d474-4825-a589-636a1f9989ff.png)
+###### [for 🇯 JAVA Developer](./documents/javadev.md)
+###### for 🇳 .NET Developer
 
 # 💡 License
 ###### The information in this document is subject to change without notice and should not be construed as a commitment by AIM Systems, Inc. While all reasonable care has been taken to ensure accuracy, AIM Systems, Inc. assumes no responsibility for any errors that may appear in this document.
