@@ -54,8 +54,8 @@ Example provides a demo how to create an EAP by using ScomDriver to help develop
 
 # 📑 Development
 ### Start to Develop EAP  
-###### [for 🇳  .NET Developer](./documents/dotnetdev.md)
-###### [for 🇯  JAVA Developer](./documents/javadev.md)
+###### for [🇳  .NET Developer](./documents/dotnetdev.md)
+###### for [🇯  JAVA Developer](./documents/javadev.md)
 
 
 # 💡 License
