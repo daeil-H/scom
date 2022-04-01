@@ -49,43 +49,43 @@ public class SECSWrapper implements SECSListener{
 		}
 	}
 
-	public void onConnected(String arg0) {
+	public void onConnected(String driverID) {
 
 	}
 
-	public void onDisconnected(String arg0) {
+	public void onDisconnected(String driverID) {
 
 	}
 
-	public void onIllegal(String arg0, SECSTransaction arg1) {
+	public void onIllegal(String driverID, SECSTransaction transaction) {
 
 	}
 
-	public void onLog(String arg0, String arg1) {
+	public void onLog(String driverID, String log) {
 
 	}
 
-	public void onReceived(String arg0, SECSTransaction arg1) {
+	public void onReceived(String driverID, SECSTransaction transaction) {
 
 	}
 
 	public void onSECSAdditional(String arg0, AdditionalEventObject arg1) {
-		// TODO Auto-generated method stub
+
 		
 	}
 
-	public void onSendComplete(String arg0, SECSTransaction arg1) {
-		// TODO Auto-generated method stub
+	public void onSendComplete(String driverID, SECSTransaction transaction) {
+
 		
 	}
 
-	public void onTimeout(String arg0, SECSTimeout arg1) {
-		// TODO Auto-generated method stub
+	public void onTimeout(String driverID, SECSTimeout timeout) {
+
 		
 	}
 
-	public void onUnknownReceived(String arg0, SECSTransaction arg1) {
-		// TODO Auto-generated method stub
+	public void onUnknownReceived(String driverID, SECSTransaction transaction) {
+
 		
 	}
 
@@ -95,4 +95,62 @@ public class SECSWrapper implements SECSListener{
 
 # .NET
 ``` C#
+using System;
+using System.Collections.Generic;
+using System.Text;
+using kr.co.aim.scomdriver.global;
+using kr.co.aim.scomdriver.plugin;
+using kr.co.aim.scomdriver.structure;
+using kr.co.aim.scomdriver.callback;
+using kr.co.aim.scomdriver.timeout;
+
+namespace codeGenerator
+{
+	class Example_Simulation_Host
+	{
+		private SinglePlugIn m_plugIn;
+
+		//Method1: Set SinglePlugIn instance.
+		public Example _Simulation_Host(SinglePlugIn plugin)
+		{
+			m_plugIn = plugin;
+		}
+		//Method2: Send Request Message.
+		public ReturnObject sendRequestMessage(SECSTransaction trx)
+		{
+			return m_plugIn.request(trx);
+		}
+		//Method3: Send Reply Message.
+		public ReturnObject sendReplyMessage(SECSTransaction trx)
+		{
+			return m_plugIn.request(trx);
+		}
+		//Method4: Get Message Information Object from SMD file.
+		public SECSTransaction getDefinedMessage
+		(int stream, int function, string definedMessageName)
+		{
+			ReturnObject returnObject = m_plugIn.GetDefinedMessage
+		(stream, function, definedMessageName);
+		if (returnObject.isSuccess())
+			return returnObject.getReturnData() as SECSTransaction;
+		else
+		{
+			System.Diagnostics.Trace.WriteLine("Faile to getDefinedMessage
+			Error:" +  returnObject.ErrorObject.getErrorDiscription());
+			return null;
+		}
+		}
+		//Method5: Edit S1F9 Message defined in SMD file.
+		public SECSTransaction makeS1F9()
+		{
+			SECSTransaction trx = new SECSTransaction();
+
+			trx.setStreamNWbit(1, true);
+			trx.Function = 9;
+
+			return trx;
+	}
+…
+}
+
 ```
