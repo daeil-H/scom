@@ -60,13 +60,12 @@ Example provides a demo how to create an EAP by using ScomDriver to help develop
 ###### [running on linux](./documents/linux.md)
 
 # 💡 License
-###### The information in this document is subject to change without notice and should not be construed as a commitment by AIM Systems, Inc. While all reasonable care has been taken to ensure accuracy, AIM Systems, Inc. assumes no responsibility for any errors that may appear in this document.
-###### The software described in this document is furnished under a license and may be used or copied only in accordance with the terms of such license.
-
 ![image](https://user-images.githubusercontent.com/102704655/161007121-8da3684a-c5bc-4bc6-8247-6ea363a340eb.png)  
 **COPYRIGHT © 2010 AIM Systems, Inc.**  
 All rights reserved.
 
+###### The information in this document is subject to change without notice and should not be construed as a commitment by AIM Systems, Inc. While all reasonable care has been taken to ensure accuracy, AIM Systems, Inc. assumes no responsibility for any errors that may appear in this document.
+###### The software described in this document is furnished under a license and may be used or copied only in accordance with the terms of such license.
 ###### No part of this document may be reproduced in any form of by any means without permission in writing from AIM Systems, Inc.
 ###### ScomDriver is a trademark of AIM Systems, Inc.
 
