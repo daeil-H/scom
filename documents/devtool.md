@@ -88,86 +88,63 @@
 ###### ‘ScomInfo’ Directory
 * It contains SECS Message Definitions (‘ProjectName.smd’) file.
 
-3.3.	ScomDevTool SECS Message Editor
-3.3.1.	Overview
-You use ScomDevTool’s SECSEditor to define the structure of SECS Messages used by the equipment you want to control.
+## ScomDevTool SECS Message Editor
+#### Overview
+* You use ScomDevTool’s SECSEditor to define the structure of SECS Messages used by the equipment you want to control.
 In this section, describes how to use SECSEditor to define SECS Messages.
 
-3.3.2.	SECSEditor Window
+#### SECSEditor Window
+
+![image](https://user-images.githubusercontent.com/102704655/161172442-bdef4822-3269-4330-984b-a03f2491c3b7.png)
+
  
+###### SECS Message Editing Pane
 
-3.3.2.1.	SECS Message Editing Pane
+![image](https://user-images.githubusercontent.com/102704655/161172448-d1244ffe-159c-43bd-be4f-1b7b8b7bf6ef.png)
+
+* The ‘SECS Message Editing Pane’ enables you to modify the header items of SECS message.
+* In the ‘Message Definition Editing Pane’, use the following controls to handle the header
+
+![image](https://user-images.githubusercontent.com/102704655/161172476-c71a6452-8b52-49ee-b853-8c7b3dd0d4a1.png)
+
+
+###### SECS DataItem Editing Pane
+
+![image](https://user-images.githubusercontent.com/102704655/161172494-da3fa554-eef3-4a04-882d-1d86a880f35a.png)
+
+* The ‘SECS DataItem Editing Pane’ enables you to edit individual items in the body of a SECS message. 
+* In the ‘SECS DataItem Editing Pane’, use the following controls to alter the item
+
+![image](https://user-images.githubusercontent.com/102704655/161172559-da7cac9a-13e7-4e0d-82fc-af18467eb1fb.png)
+
+###### SECS Message Library Pane
  
+ ![image](https://user-images.githubusercontent.com/102704655/161172597-8d9b2538-8154-4878-8c0f-47c83e8d99ab.png)
 
-The ‘SECS Message Editing Pane’ enables you to modify the header items of SECS message.
-In the ‘Message Definition Editing Pane’, use the following controls to handle the header
-Control	Description
-Stream	Enter the SECS-II stream number.
-Function	Enter the SECS-II function number.
-Msg Name	Enter a name for the message definition. The length of message name can be up to 32 characters, and it must start with a letter of the alphabet, and cannot have any spaces. It becomes a SECS Message Class’s name.
-Wait	Click this checkbox to turn on the Wait-Flag
-AutoReply	Click this checkbox to turn on the AutoReply-Flag.
-To Equip	Click this radio button to set the message direction to ‘H->E’.
-To Host	Click this radio button to set the message direction to ‘H<-E’.
-Both	Click this radio button to set the message direction to ‘H<->E’.
-Description	Use the keyboard to alter the message definition description in the text field.
-Add	Add defined Message.
-Change	Update selected message with a new data.
+* The ‘SECS Message Library Pane’ displays the contents of message definitions of current selected library and provides several ways to choose and import individual message definitions into the current project.
 
+###### SECS Message Definition Pane
 
-3.3.2.2.	SECS DataItem Editing Pane
+![image](https://user-images.githubusercontent.com/102704655/161172602-f99560b2-e4b6-44eb-afbe-9e8f5f2a2aaf.png)
+
+* The ‘SECS Message Definition Pane’ displays the definition of every message imported into the current project.
+* To edit a message definition, you select the parts of the definition that you want to change in this pane, and edit it by using the ‘SECS Message Editing Pane’ and the ‘SECS DataItem Editing Pane’.
+* In this pane, you can cut, copy, and paste individual lines of message definitions or entire message definitions by using Edit Menu and Pop-Up menu.
+
+#### Loading SECS Message Libraries
+###### SECSEditor loads the Standard SECS-II Library by default when it runs first. You can load other libraries, including ones that you have defined yourself, to use the ‘SECS Message Library’ command in the ‘View’ menu. You can switch to the SECS Standard library or import custom message definition files.
+###### You can load one of the following message definition libraries into SECSEditor:
+* AIM SEMI Standard Library, which contains the entire message currently defined in the SECS-II standard.
+* AIM GEM Standard Library, which contains the SECS-II messages currently included in the GEM standard.
+* AIM SECS Message Definition File, which contains messages defined using ScomDevTool’s SECSEditor (SMD)
+
+#### Editing SECS Message Definitions
+###### Defined SECS Message Format
  
-The ‘SECS DataItem Editing Pane’ enables you to edit individual items in the body of a SECS message. 
-In the ‘SECS DataItem Editing Pane’, use the following controls to alter the item
-Control	Description
-Item Name	Enter the name of the item. The name must be unique to the message. It becomes SECS Message class’s member property.
-Item Count	Enter the item count.
-Fixed Count	Click this checkbox to toggle the fixed count setting for the item.
-Initial Value	Enter an initial value for the item.
-Types	Click the desired data type button.
-	Item Type	Means
-	List	list.
-	Ascii	unit size is 1 byte.
-	Binary	unit size is 1 byte.
-	Boolean	0 or 1: unit size is 1 byte.
-	I1	signed 1-byte integer.
-	I2	signed 2-byte integer.
-	I4	signed 4-byte integer.
-	I8	signed 8-byte integer.
-	U1	unsigned 1-byte integer.
-	U2	unsigned 2-byte integer.
-	U4	unsigned 4-byte integer.
-	U8	unsigned 8-byte integer.
-	F4	4-byte floating point number.
-	F8	4-byte floating point number.
-	JIS-8	JIS-8.
-	Any	any item type.
+ ![image](https://user-images.githubusercontent.com/102704655/161172758-6ce15a3f-fe08-4341-a705-689e46f8a4f5.png)
 
-3.3.2.3.	SECS Message Library Pane
- 
-
-The ‘SECS Message Library Pane’ displays the contents of message definitions of current selected library and provides several ways to choose and import individual message definitions into the current project.
-
-3.3.2.4.	SECS Message Definition Pane
- 
-
-The ‘SECS Message Definition Pane’ displays the definition of every message imported into the current project.
-To edit a message definition, you select the parts of the definition that you want to change in this pane, and edit it by using the ‘SECS Message Editing Pane’ and the ‘SECS DataItem Editing Pane’.
-In this pane, you can cut, copy, and paste individual lines of message definitions or entire message definitions by using Edit Menu and Pop-Up menu.
-
-3.3.3.	Loading SECS Message Libraries
-SECSEditor loads the Standard SECS-II Library by default when it runs first. You can load other libraries, including ones that you have defined yourself, to use the ‘SECS Message Library’ command in the ‘View’ menu. You can switch to the SECS Standard library or import custom message definition files.
-You can load one of the following message definition libraries into SECSEditor:
-	AIM SEMI Standard Library, which contains the entire message currently defined in the SECS-II standard.
-	AIM GEM Standard Library, which contains the SECS-II messages currently included in the GEM standard.
-	AIM SECS Message Definition File, which contains messages defined using ScomDevTool’s SECSEditor (SMD)
-
-3.3.4.	Editing SECS Message Definitions
-3.3.4.1.	Defined SECS Message Format
- 
-
-	Message Header
-The message header consists of a description of the message’s name and function, followed by a single line providing information in the following format:
+* Message Header
+ The message header consists of a description of the message’s name and function, followed by a single line providing information in the following format:
 MessageName: Sn Fm Wait-Flag AutoReply-Flag Direction
 MessageName: Message name. (ASCII format)
 Sn Fm: Stream and Function numbers of the message.
