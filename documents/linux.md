@@ -1,2 +1,0 @@
-# 🇱 running on linux
-
