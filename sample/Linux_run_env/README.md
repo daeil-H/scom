@@ -35,3 +35,8 @@ else
 fi
 
 ```
+
+start a EAP
+```sh
+$ ./startup.sh HOST01
+```
