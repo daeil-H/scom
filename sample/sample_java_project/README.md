@@ -13,7 +13,7 @@
 * xutil4j: 1.0
 
 ### 1. download this project
-![image](https://user-images.githubusercontent.com/78777059/165443706-1ddacbc4-3f6c-460e-8126-487c5ae77f54.png)
+![image](https://user-images.githubusercontent.com/78777059/165448663-b80956f8-7326-43dc-8894-97df4b0bd5e7.png)
 
 ### 2. Make a workspace and import this project.
 ![image](https://user-images.githubusercontent.com/78777059/165443999-6e3e9854-9aec-4060-9d2b-aa94e74f50ad.png)
@@ -47,3 +47,11 @@ set to suit your environment
 ##### EQP
 ![image](https://user-images.githubusercontent.com/78777059/165447273-d5d9380d-1b05-4bcf-ba3f-5265a91d20db.png)
 
+# if you use rockey (USB Protect Program) ?
+### add jRockey4ND.dll file
+![image](https://user-images.githubusercontent.com/78777059/165449801-a6d35fff-2c4a-4094-9476-eae6f88eb823.png)
+
+
+##### what is rockey??  
+scomdriver use rockey4ND.
+[ROCKEY4ND GoldenSecurity](http://rockey.co.kr/pages/page_62.php)
