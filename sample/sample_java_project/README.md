@@ -20,8 +20,8 @@
 
 ### 5. modify ScomINI.xml
 set to suit your environment  
-part that must be changed  
 ##### SMDPATH, IP, PORT, ROOTDIR
+ that must be changed  
 ``` xml
 <SMDPATH>C:\Program Files (x86)\AIM Systems, Inc\SEComEnabler 2.1\SEComSimulator\DEFAULT.SMD</SMDPATH>
 <IP>127.0.0.1</IP>
