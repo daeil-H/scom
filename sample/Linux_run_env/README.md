@@ -40,3 +40,9 @@ start a EAP
 ```sh
 $ ./startup.sh HOST01
 ```
+
+
+### if you use rockey (USB Protect Program) ?
+##### you must copy 'libJRockey4ND.so' file into /usr/local/lib dir.  
+/usr/local/lib/libJRockey4ND.so
+
