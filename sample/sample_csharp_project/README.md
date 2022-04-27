@@ -32,3 +32,12 @@
 
 ##### EQP
 ![image](https://user-images.githubusercontent.com/78777059/165430005-812f3873-5819-439d-8eb7-19886704c19b.png)
+
+
+# if you use rockey (USB Protect Program) ?
+### add a r4nd.class file
+![image](https://user-images.githubusercontent.com/78777059/165430414-12416a1f-babb-4b32-85f0-f6e173ea3f9a.png)
+
+##### what is rockey??  
+scomdriver use rockey4ND.
+[ROCKEY4ND GoldenSecurity](http://rockey.co.kr/pages/page_62.php)
