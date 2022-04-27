@@ -1,4 +1,4 @@
-# How To Use This Project?
+# How to use This Project?
 
 ### 1. download this project
 ![image](https://user-images.githubusercontent.com/78777059/165428340-3e2060b7-cfd5-4204-84a8-da7defc6d8e9.png)
