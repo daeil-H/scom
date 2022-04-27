@@ -1,5 +1,17 @@
 # How to use This Project?
 
+#### environment
+* Oracle JDK: 1.6.0_45 ~ 1.8.0_231
+* OpenJDK : 11.0.11 ~ 
+
+#### dependency
+* commons-logging-1.0.4
+* dynamic-file-appender-1.0.0.jar
+* jdom: 1.0
+* junit: 1.0
+* log4j: 1.2.15
+* xutil4j: 1.0
+
 ### 1. download this project
 ![image](https://user-images.githubusercontent.com/78777059/165443706-1ddacbc4-3f6c-460e-8126-487c5ae77f54.png)
 
